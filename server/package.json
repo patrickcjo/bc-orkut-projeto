@@ -1,0 +1,33 @@
+{
+    "author": "patrickcjo",
+    "dependencies": {
+        "better-sqlite3": "^8.6.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-async-errors": "^3.1.1",
+        "express-validator": "^7.0.1",
+        "prompt-sync": "^4.2.0",
+        "react-star-ratings": "^2.3.0",
+        "react-zorm": "^0.9.0",
+        "zod": "^3.22.2"
+    },
+    "description": "Criando uma api com express banco de dados em SQLite",
+    "devDependencies": {
+        "@faker-js/faker": "^8.0.2",
+        "@types/node": "^20.7.1",
+        "@types/react": "^18.2.23",
+        "nodemon": "^3.0.1",
+        "typescript": "^5.2.2"
+    },
+    "license": "ISC",
+    "main": "index.js",
+    "name": "nodejs",
+    "scripts": {
+        "dev": "nodemon src/index.mjs",
+        "seed:friend": "node src/friend/friend.seed.mjs",
+        "seed:post": "node src/post/post.seed.mjs",
+        "seed:user": "node src/user/user.seed.mjs"
+    },
+    "version": "1.0.0"
+}
